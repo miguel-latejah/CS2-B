@@ -112,7 +112,7 @@ def play_game():
     #while difficulty not in 'EMH':
     print('Enter difficulty: E - Easy, M - Medium, H - Hard')
 
-    Mdifficulty = input().upper()
+    difficulty = input().upper()
     if difficulty == 'M':
         del HANGMAN_PICS[8]
         del HANGMAN_PICS[7]
